@@ -1,0 +1,88 @@
+.index .nav {
+    height: 300px;
+    background-color: #1cdcb6;
+}
+
+.index .navadmin .container .title {
+    height: 100px;
+    font-weight: 900;
+    font-size: xx-large;
+    text-align: center;
+    line-height: 100px;
+    color: #5fa2db;
+}
+
+.index .content {
+    background-color: #a3bce4;
+}
+
+.index .col-md-3 {
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+    border: 2px solid pink;
+}
+
+.index .col-md-3 div {
+    margin-bottom: 5px;
+}
+
+.index .col-md-3 a:link {text-decoration: none;color: white}
+.index .col-md-3 a:visited {text-decoration: none;color: white}
+.index .col-md-3 a:hover {text-decoration: none;color: white}
+.index .col-md-3 a:active {text-decoration: none;color: white}
+
+.index .col-md-4 {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.index .col-md-2 {
+    text-align: center;
+}
+
+.index .col-md-2 input {
+    height: 50px;
+    line-height: 50px;
+    zoom: 180%;
+}
+
+.admin .col-md-2,.col-md-6 {
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+    border: 2px solid pink;
+}
+
+.admin .nav {
+    height: 300px;
+    background-color: #1cdcb6;
+}
+
+.admin .content {
+    background-color: #a3bce4;
+}
+
+.admin a:link {text-decoration: none;color: white}
+.admin a:visited {text-decoration: none;color: white}
+.admin a:hover {text-decoration: none;color: white}
+.admin a:active {text-decoration: none;color: white}
+
+
+
+
+
+
+
+
+
+
+
+
