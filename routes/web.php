@@ -11,8 +11,11 @@
 |
 */
 
-Route::get('/', 'IndexController@index');
+Auth::routes();
 
-Route::get('/admin/', 'Admin\IndexController@index');
-
-Route::get('/admin/append', 'Admin\IndexController@append');
+Route::group(['middleware' => 'auth'], function() {
+    Route::get('/', 'IndexController@index');
+    Route::get('/home', function () {
+        return view('home');
+    });
+});
