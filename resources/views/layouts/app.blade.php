@@ -68,9 +68,11 @@
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf
                                     </form>
-                                    <a class="dropdown-item add" href="javascript:void(0);">
-                                        Add
-                                    </a>
+                                    @if (Auth::user()->id == 1)
+                                        <a class="dropdown-item add" href="javascript:void(0);">
+                                            Add
+                                        </a>
+                                    @endif
                                 </div>
                             </li>
                         @endguest
